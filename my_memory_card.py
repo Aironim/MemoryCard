@@ -27,7 +27,8 @@ def next_question():
 ques1 = Question('Государственный язык Бразилии', 'Португальский', 'Бразильский', 'Испанский', 'Итальянский')
 ques2 = Question('тест на мшк фрэдэ: вы мшк фрэдэ?', 'незнаю', 'нет', 'возможно', 'да' )
 ques3 = Question('значит вы хотит пройти тест', 'да', 'нет', 'да', 'да' )
-questions_list = [ques1, ques2, ques3]
+ques4 = Question('В какую игру вы играете?', 'ксго', 'майнкрафт', 'плазмафобия', 'ни в какую')
+questions_list = [ques1, ques2, ques3, ques4]
 
 app = QApplication([])
 btn_OK = QPushButton('Ответить') 
